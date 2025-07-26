@@ -1,0 +1,50 @@
+.thankyou-container {
+  text-align: center;
+  padding: 40px;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 128, 128, 0.1);
+  border-radius: 12px;
+  max-width: 80%;
+  margin: auto;
+}
+
+.thankyou-box h1 {
+  color: #009999;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.thankyou-box p {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.home-btn {
+  background: #009999;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.home-btn:hover {
+  background: #007777;
+}
+
+@media (max-width: 480px) {
+  .thankyou-container {
+    margin: auto;
+    padding: 30px;
+  }
+
+  .thankyou-box h1 {
+    font-size: 26px;
+  }
+
+  .thankyou-box p {
+    font-size: 16px;
+  }
+}

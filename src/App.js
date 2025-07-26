@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {BrowserRouter, Routes, Route } from "react-router"
+import {BrowserRouter, Routes, Route, Navigate} from "react-router"
 import Navbar from './components/Navbar/NavBar.js';
 import Footer from './components/Footer/Footer.js';
 // import Footer from './components/Footer.js';
@@ -13,6 +13,7 @@ import About from './components/About/About.js';
 import Contact from './components/Contact/Contact.js';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy.js';
 import TermsConditions from './components/TermsConditions/TermsConditions.js';
+import Thankyou from './components/Thankyou/Thankyou.js'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
     <Navbar />
     <BrowserRouter>
     <Routes>
+      <Route path="/thank-you" element={<Thankyou />}> </Route>
       <Route path="/" element={<Home />}> </Route>
       <Route path="/services" element={<Service />}> </Route>
       <Route path="/portfolio" element={<Portfolio />}> </Route>
@@ -27,6 +29,7 @@ const App = () => {
       <Route path="/contact" element={<Contact />}> </Route>
       <Route path="/privacy-policy" element={<PrivacyPolicy />}> </Route>
       <Route path="/terms-and-conditions" element={<TermsConditions />}> </Route>
+      <Route path="*" element={<Navigate to="/" replace />}> </Route>
     </Routes>
         {/* <HeroSection1 />
         <AboutSection />

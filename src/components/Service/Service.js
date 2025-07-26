@@ -3,11 +3,19 @@ import './Service.css';
 import WebDev from '../../assets/wd.jpg';
 import SMM from '../../assets/smm.jpg';
 import DM from '../../assets/dm.jpg';
+// import {helmet} from "react-helmet";
 
 function Service() {
   return (
     <>
     <div class="services-hero">
+      <helmet>
+      <title>Services | Shivam Digital - Website Development & Marketing Expert</title>
+      <meta name="description" content="Explore the services I offer: Website development, social media management, and digital marketing using Meta and Google Ads." />
+      <meta name="keywords" content="Web Development Services, Digital Marketing, Meta Ads, Google Ads, Social Media Marketing, WordPress Freelancer, Freelance Developer" />
+
+
+      </helmet>
   <h1>My Services</h1>
   <p>I help brands grow online with stunning websites, smart content, and strategic digital marketing.</p>
 </div>

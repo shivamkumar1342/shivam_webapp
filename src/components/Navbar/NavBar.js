@@ -6,7 +6,7 @@ function BasicExample() {
   return (
     <Navbar sticky="top" expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="/">Shivam Digital</Navbar.Brand>
+        <Navbar.Brand href="/"><strong>Shivam Digital</strong></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

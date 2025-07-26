@@ -1,10 +1,16 @@
 import React from 'react'
+// import {helmet} from "react-helmet";
 import './Privacy.css';
 
 export default function PrivacyPolicy() {
   return (
     <>
     <div class="privacy-hero">
+      <helmet>
+        <title>Privacy Policy | Shivam Digital</title>
+        <meta name="description" content="Read Shivam Digital's privacy policy to understand how your information is collected, used, and protected." />
+        <meta name="keywords" content="Privacy Policy, User Data Protection, Information Collection, Shivam Digital Privacy, GDPR Policy, Website Privacy Policy" />
+      </helmet>
   <h1>Privacy Policy</h1>
 </div>
 

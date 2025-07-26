@@ -1,10 +1,18 @@
 import React from 'react'
 import './Terms.css';
+// import {helmet} from "react-helmet";
 
 export default function TermsConditions() {
   return (
     <>
     <div class="terms-hero">
+      <helmet>
+    <title>Terms and Conditions | Shivam Digital</title>
+    <meta name="description" content="Review the terms and conditions that govern the use of Shivam Digital's freelance services and website." />
+    <meta name="keywords" content="Terms and Conditions, User Agreement, Website Terms, Freelance Service Terms, Shivam Digital Legal Terms, Service Policy" />
+
+
+      </helmet>
   <h1>Terms & Conditions</h1>
 </div>
 

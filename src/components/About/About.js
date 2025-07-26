@@ -5,11 +5,19 @@ import ShivamMTB from '../../assets/ShivamMTB.jpeg';
 import WebDev from '../../assets/wd.jpg';
 import SMM from '../../assets/smm.jpg';
 import DM from '../../assets/dm.jpg';
+// import {helmet} from "react-helmet";
 
 export default function About() {
   return (
    <>
    <div class="about-hero">
+    <helmet>
+    <title>About Shivam Kumar | Shivam Digital</title>
+    <meta name="description" content="Learn about Shivam Kumar, a BCA student, national-level mountain biker, and freelance website developer & digital marketer based in Dehradun." />
+    <meta name="keywords" content="Shivam Kumar, About Shivam Digital, BCA Student Developer, Freelancer in Dehradun, Digital Marketer, Website Developer, MTB Athlete" />
+
+
+    </helmet>
   <div class="about-hero-content">
     <img src={Shivam} alt="Shivam Kumar" class="profile-image" />
     <div>

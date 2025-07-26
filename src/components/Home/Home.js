@@ -5,6 +5,7 @@ import Shivam from '../../assets/ShivamKumar.jpg';
 import WebDev from '../../assets/wd.jpg';
 // import SMM from '../../assets/smm.jpg';
 import DM from '../../assets/dm.jpg';
+// import {helmet} from "react-helmet";
 
 export default function Home() {
   return (

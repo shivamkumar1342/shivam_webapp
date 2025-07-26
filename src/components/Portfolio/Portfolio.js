@@ -5,6 +5,7 @@ import chatpatasocial from '../../assets/chatpatasocial.png'
 import RaushanYogantablog from '../../assets/RaushanYogantablog.png'
 import YogantaAcademyweb from '../../assets/YogantaAcademyweb.png'
 import MetaAds from '../../assets/metaAds.jpg'
+// import {helmet} from "react-helmet";
 
 
 
@@ -12,6 +13,13 @@ function Portfolio() {
   return (
     <>
     <div class="portfolio-hero">
+      <helmet>
+      <title>Portfolio | Shivam Digital - My Work & Projects</title>
+      <meta name="description" content="View my freelance projects including websites, social media management, and blog SEO for clients like Chatpata Affair and Yoganta." />
+      <meta name="keywords" content="Freelance Portfolio, Web Projects, Chatpata Affair Website, Yoganta, SEO Blogs, WordPress Projects, Digital Marketing Campaigns" />
+
+
+      </helmet>
   <h1>My Portfolio</h1>
   <p>Explore my latest freelance projects in website development, social media management, and digital marketing.</p>
 </div>
