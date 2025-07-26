@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23023317.css",
+    "main.js": "/static/js/main.2539f441.js",
+    "static/js/455.64d87b75.chunk.js": "/static/js/455.64d87b75.chunk.js",
+    "static/media/chatpataweb.png": "/static/media/chatpataweb.c97bff4ec60541ca62d2.png",
+    "static/media/RaushanYogantablog.png": "/static/media/RaushanYogantablog.0db4f5ff9ef8de36d6aa.png",
+    "static/media/chatpatasocial.png": "/static/media/chatpatasocial.c8cdcf1b8301c57ae8b6.png",
+    "static/media/ShivamMTB.jpeg": "/static/media/ShivamMTB.039bcb4f4fe20a9f8639.jpeg",
+    "static/media/YogantaAcademyweb.png": "/static/media/YogantaAcademyweb.57a6ecbc2d76fde1bc3c.png",
+    "static/media/ShivamKumar.jpg": "/static/media/ShivamKumar.74161f3c545930637e9d.jpg",
+    "static/media/dm.jpg": "/static/media/dm.12a1cbb4a9db98e650a3.jpg",
+    "static/media/wd.jpg": "/static/media/wd.c1ff972dcc4024c14996.jpg",
+    "static/media/smm.jpg": "/static/media/smm.b17afb32fc891a2399e4.jpg",
+    "static/media/metaAds.jpg": "/static/media/metaAds.3baac503037a0d1597e3.jpg",
+    "index.html": "/index.html",
+    "main.23023317.css.map": "/static/css/main.23023317.css.map",
+    "main.2539f441.js.map": "/static/js/main.2539f441.js.map",
+    "455.64d87b75.chunk.js.map": "/static/js/455.64d87b75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23023317.css",
+    "static/js/main.2539f441.js"
+  ]
+}
