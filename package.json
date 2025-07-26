@@ -1,5 +1,5 @@
 {
-  "homepage": "https://shivamkumar1342.github.io/shivam_webapp",
+  "homepage": "https://shivamkumar1342.github.io/",
   "name": "shivam_webapp",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
